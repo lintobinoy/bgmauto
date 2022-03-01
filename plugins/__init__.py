@@ -46,7 +46,7 @@ HELP = """
 ABOUT = """
 **About Bot 🤖**
 
-**▷🤖 Name: [BGM MASTER](Not possible😹).
+**▷🤖 Name: [BGM MASTER](@Bgmautofilter_bot).
     
 ▷👨‍💻 Creator : [ALPHA](https://t.me/alpha_of_humans)
 
