@@ -100,7 +100,7 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/BotzListBot')
+                        InlineKeyboardButton('More Bots', url='https://t.me/homis_of_telegram')
                     ],
                     [
                         InlineKeyboardButton('👨‍💻 Developer @alpha_of_humans 📢', url=f'{DEV_CHANNEL}')
@@ -140,7 +140,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🖲️ Commands", callback_data="help"),
                 InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
                 ],[
-                InlineKeyboardButton("☺ CHAT GROUP 😌", url="https://t.me/BotzListBot")
+                InlineKeyboardButton("☺ CHAT GROUP 😌", url="https://t.me/homis_of_telegram")
                 ]]
             )
         )
