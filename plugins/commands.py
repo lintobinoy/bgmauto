@@ -103,7 +103,7 @@ async def start(bot, message):
                         InlineKeyboardButton('More Bots', url='https://t.me/BotzListBot')
                     ],
                     [
-                        InlineKeyboardButton('👨‍💻 Developer @ZauteKm 📢', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('👨‍💻 Developer @alpha_of_humans 📢', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -140,7 +140,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🖲️ Commands", callback_data="help"),
                 InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
                 ],[
-                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/BotzListBot")
+                InlineKeyboardButton("☺ CHAT GROUP 😌", url="https://t.me/BotzListBot")
                 ]]
             )
         )
