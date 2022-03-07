@@ -67,7 +67,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        zaute_km = f"**🗂️ Title:** {search}\n**⭐ Audio Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
+        zaute_km = ("https://telegra.ph/file/09d1fc547923121f2fe5e.jpg") f"**🗂️ Title:** {search}\n**⭐ Audio Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
