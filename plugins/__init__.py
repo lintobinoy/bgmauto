@@ -46,11 +46,13 @@ HELP = """
 ABOUT = """
 **About Bot 🤖**
 
-**▷🤖 Name: [BGM MASTER](@Bgmautofilter_bot).
+**▷🤖 Name: [BGM MASTER](https://t.me/Bgmautofilter_bot).
     
 ▷👨‍💻 Creator : [ALPHA](https://t.me/alpha_of_humans)
 
 ▷🌏 Language : Python3
 
 ▷♻️ Library : Pyrogram Asyncio 1.13.0**
+
+▷👥 Developed by [ProXBotZ](https://t.me/proxbotz)
 """
