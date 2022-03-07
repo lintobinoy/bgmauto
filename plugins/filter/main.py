@@ -67,7 +67,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        zaute_km = ("https://telegra.ph/file/09d1fc547923121f2fe5e.jpg") f"**🗂️ Title:** {search}\n**⭐ Audio Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
+        zaute_km = f"**🗂️ Title:** {search}\n**⭐ Audio Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by {message.chat.title}**"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
@@ -291,8 +291,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/homis_of_telegram')
+                    InlineKeyboardButton(' 📢 Channel', url=f'{DEV_CHANNEL}'),
+                    InlineKeyboardButton('Group 👨‍🔧', url=f'https://t.me/proxbotz')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -300,8 +300,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/homis_of_telegram')
+                    InlineKeyboardButton('📢 Channel', url=f'{DEV_CHANNEL}'),
+                    InlineKeyboardButton('Support 👨‍🔧', url=f'https://t.me/proxbotz')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -324,8 +324,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/homis_of_telegram')
+                        InlineKeyboardButton('📢 Channel', url=f'{DEV_CHANNEL}'),
+                        InlineKeyboardButton('Support 👩‍🔧', url=f'https://t.me/proxbotzofficial')
                     ]
                     ]
                 
@@ -356,8 +356,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/homis_of_telegram')
+                        InlineKeyboardButton('📢 Channel', url=f'{DEV_CHANNEL}'),
+                        InlineKeyboardButton('Support 👨‍🔧', url=f'https://t.me/proxbotzofficial')
                     ]
                     ]
                 
